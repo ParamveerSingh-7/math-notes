@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "cd calc-fe && npm run build"
+  },
   "dependencies": {
     "react-draggable": "^4.4.6"
   }
