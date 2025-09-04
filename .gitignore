@@ -1,0 +1,40 @@
+# Node
+node_modules/
+.dist/
+dist/
+build/
+*.log
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.venv/
+venv/
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage / reports
+coverage/
+.coverage*
+htmlcov/
+pytest_cache/
+
+# Misc
+*.local
+.cache/
