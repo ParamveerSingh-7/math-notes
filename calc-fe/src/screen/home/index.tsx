@@ -102,9 +102,6 @@ export default function MathCalculator() {
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [expandedSteps, setExpandedSteps] = useState<Set<string>>(new Set());
-  const [selectedResults, setSelectedResults] = useState<Set<string>>(
-    new Set()
-  );
 
   useEffect(() => {
     if (latexExpressions.length > 0 && window.MathJax) {
@@ -127,7 +124,6 @@ export default function MathCalculator() {
       setResults([]);
       setDictOfVars({});
       setReset(false);
-      setSelectedResults(new Set());
     }
   }, [reset]);
 
